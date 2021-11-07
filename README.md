@@ -1,27 +1,14 @@
-INTRODUCTION
-------------
+# Block node condition
 
-This module enables site builders to control block visibility with nodes
-(selecting on which nodes block shoud be displayed).
+> NOTE: Project is maintained at https://www.drupal.org/project/block_node_condition
 
-INSTALLATION
-------------
+**This is a repository copy of Drupal 8 module** `block_node_condition`.
 
- - Install the module as you would normally install a contributed Drupal
-   module. Visit https://www.drupal.org/node/1897420 for further information.
+This module enables site builders control block visibility with content (selecting on which nodes should block be displayed).
 
+- Enable block_node_condition module
+- Go to /admin/structure/block and select the block you wish to configure
+- Under "Visibility" you should see new tab "Nodes"
+- Configure the "Display block only on selected nodes" by selecting your existing nodes
 
-CONFIGURATION
--------------
-
-- Enable block_node_condition module.
-- Go to /admin/structure/block and select the block you wish to configure.
-- Under "Visibility" you should see new tab "Nodes".
-- Configure the "Display block only on selected nodes" by selecting existing
-nodes.
-
-
-MAINTAINERS
------------
-
-  - Borut Piletic (borutpiletic) - https://www.drupal.org/u/borutpiletic
+![Condition for block using nodes](https://www.drupal.org/files/project-images/block_node_condition.png)
