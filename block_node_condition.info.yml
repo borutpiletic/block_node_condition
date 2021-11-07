@@ -1,0 +1,6 @@
+name: Block node condition
+description: Condition to control block visibility with nodes.
+type: module
+
+core: 8.x
+core_version_requirement: ^8 || ^9
