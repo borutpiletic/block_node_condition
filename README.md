@@ -6,9 +6,9 @@
 
 This module enables site builders control block visibility with content (selecting on which nodes should block be displayed).
 
-- Enable block_node_condition module
-- Go to /admin/structure/block and select the block you wish to configure
-- Under "Visibility" you should see new tab "Nodes"
-- Configure the "Display block only on selected nodes" by selecting your existing nodes
+- Enable `block_node_condition` module.
+- Go to `/admin/structure/block` and select the block you wish to configure.
+- Under "Visibility" you should see new tab "Nodes".
+- Configure the "Display block only on selected nodes" by selecting your existing nodes.
 
 ![Condition for block using nodes](https://www.drupal.org/files/project-images/block_node_condition.png)
